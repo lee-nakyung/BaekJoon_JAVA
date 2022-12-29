@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 	
-	static int isPrime(int n) {
+	static int isPrime(int n) { //소수구하기 
 		if(n==1)
 			return 0;
 		
