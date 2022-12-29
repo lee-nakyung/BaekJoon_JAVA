@@ -27,7 +27,7 @@ public class Main {
 		
 		Arrays.sort(array,(e1,e2)->{ //람다식 활용
 			if(e1[0]==e2[0]) { //첫번째 좌표가 같을때 두번째 좌표 비교
-				return e1[1]-e2[1]; //오름차순 정
+				return e1[1]-e2[1]; //오름차순 정리 
 			}
 			else
 				return e1[0]-e2[0];
