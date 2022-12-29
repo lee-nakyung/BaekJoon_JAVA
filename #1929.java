@@ -23,7 +23,7 @@ public class Main {
 		array[1]=true;
 		
 		for(int i=2; i<=Math.sqrt(N); i++) {
-			for(int j=i*i; j<=N; j+=i) {
+			for(int j=i*i; j<=N; j+=i) { //배수 확인
 				array[j]=true;
 			}
 		}
