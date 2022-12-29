@@ -24,7 +24,7 @@ public class Main {
 			array[i]=Integer.parseInt(br.readLine());
 		}
 		
-		Arrays.sort(array,Collections.reverseOrder());
+		Arrays.sort(array,Collections.reverseOrder());//reverseOrder 사용할 때는 배열 integer로 받아야함
 		for(int i=0; i<N; i++) {
 			bw.write(array[i]+"\n");
 		}
